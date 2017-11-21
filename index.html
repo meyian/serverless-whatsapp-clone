@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Vanilla mLab</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/mlab.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div id="div-container">
+      <h1 id="h1-title">mLab Example</h1>
+      <div id="div-holder" class="borderd">
+        <div id="div-wait-holder" class="dont-show">
+          <h2 id="h2-press-enter">
+              Press Enter
+          </h2>
+        </div>
+        <form id="form">
+          <img src="./imgs/icon.png" id="img-icon" class="dont-show"/>
+          <input id="input-list" type="text" placeholder="Enter something" />
+        </form>
+        <ul id="ul-storage-items" class="borderd">
+          <li>Loading</li>
+          <!-- <li>Item 2</li>
+          <li>Item 3</li>
+          <li>Item 4</li>
+          <li>Item 5</li>
+          <li>Item 6</li>
+          <li>Item 7</li>
+          <li>Item 8</li> -->
+        </ul>
+      </div>
+
+      <div class="div-msg-area">
+        <h5>A shared online chat room. mLab provides the cloud storage.</h5>
+      </div>
+
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script -->
+    <script src="js/jquery-1.11.3.js"></script>
+    <!-- <script src="js/jquery-ui.js"></script> -->
+    <!-- <script src="js/underscore-min.js"></script> -->
+    <!-- <script src="js/moment.js"></script> -->
+    <!-- script src="js/live.js"></script -->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- <script src="js/bootstrap.min.js"></script> -->
+    <script src="js/mlab.js"></script>
+  </body>
+</html>
